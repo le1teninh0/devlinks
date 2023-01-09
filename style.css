@@ -32,7 +32,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: auto;
 
   margin: 56px auto 0px;
@@ -55,7 +56,6 @@ body * {
   border-radius: 50%;
   border: 2px solid #bebdbd;
   width: 100%;
-  
 }
 
 .light #profile img {
@@ -112,7 +112,6 @@ body * {
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
 }
 
 /* Links */
